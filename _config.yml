@@ -1,0 +1,115 @@
+# -----------------------------------------------------------------------------
+#  User configuration
+# -----------------------------------------------------------------------------
+
+title:               Von's Blog
+
+# The unique resource location of your page.
+# Set to `https://<username>.github.io` when hosting on GitHub Pages (and not using custom domains!)
+url:                https://iamvon.github.io/
+
+# Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
+# Set to '/<reponame>' when using the `gh-pages` branch of a repository
+baseurl:             /iamvon.github.io
+
+# A very short description  of your page
+tagline: Code runs your life
+
+# A longer description of the page, used in the sidebar and as fallback for the meta description tag.
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:         >
+
+
+  
+# This should be the same author as first in `_data/authors.yml`
+author:
+  name:              iamvon
+  email:             iamvon.blog@gmail.com
+
+# Fallback image and color if not overwritten
+#image:               
+color:               '#01ad93'
+
+# Remove to disable Google Fonts
+google_fonts:        Roboto+Slab:700|Noto+Serif:400,400i,700,700i
+font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"
+font:                "'Noto Serif', Georgia, serif"
+
+# Remove to disable Google Anaylics
+google_analytics:    UA-84025722-2
+
+# Setting a disqus shortname will enable the comment section on pages
+# that have `comments: true` in the front matter
+disqus_shortname: https-iamvon-github-io  
+# This text will appear in the footer of every page. Markdown enabled.
+copyright:           '&copy; 2017. All rights reserved.'
+
+# Set to true when building locally with the `--lsi` option
+# See: https://jekyllrb.com/docs/variables/#site-variables, `site.related_posts`
+use_lsi:             false
+
+# Set to `true` if you don't want to show an icon after each link that opens to an external site
+no_mark_external:    true
+
+# Format of the permalinks
+permalink:           pretty
+
+# Pagination configuration (used by the `blog` layout)
+paginate:            5
+paginate_path:       '/page-:num/'
+
+# so that existing subscribers to your feed continue to receive updates.
+# feed:
+#   path:              atom.xml
+
+# -----------------------------------------------------------------------------
+#  Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  featured_categories:
+    permalink:       /category/:name/
+    output:          true
+  featured_tags:
+    permalink:       /tag/:name/
+    output:          true
+  projects:
+    permalink:       /projects/:path/
+    output:          true
+
+# -----------------------------------------------------------------------------
+#  Advanced configuration
+# -----------------------------------------------------------------------------
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
+  
+exclude:
+  - README.md
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme.gemspec
+ 
+kramdown:
+  footnote_backlink: '&#x21a9;&#xfe0e;'
+  math_engine:       mathjax
+  math_engine_opts:
+    preview:         true
+    preview_as_code: true
+
+compress_html:
+  comments:          ["<!-- ", " -->"]
+  clippings:         all
+  endings:           all
+  ignore:
+    envs:            [development]
+
+sass:
+  style:             compressed

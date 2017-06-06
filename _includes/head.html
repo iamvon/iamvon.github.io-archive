@@ -1,0 +1,102 @@
+<!-- =============== -->
+<!-- META            -->
+<!-- =============== -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="x-rim-auto-match" content="none">
+
+{% capture title %}
+  {% if page.url == "/" %}
+    {{ site.title }} &middot; {{ site.tagline }}
+  {% elsif page.title.size > 0 %}
+    {{ page.title }} &middot; {{ site.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+{% endcapture %}
+
+{% unless page.redirect %}
+  <title>{{ title | strip }}</title>
+{% else %}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+  <title>Redirecting...</title>
+{% endunless %}
+
+{% if page.description.size > 0 %}
+  {% assign description = page.description | markdownify %}
+{% elsif page.excerpt.size > 0 %}
+  {% assign description = page.excerpt %}
+{% else %}
+  {% assign description = site.description | markdownify %}
+{% endif %}
+<meta name="description" content="{{ description | strip_html | truncatewords:50 }}">
+
+<!-- =============== -->
+<!-- LINKS           -->
+<!-- =============== -->
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} Feed" href="{{ site.feed.path | default:'feed.xml' | absolute_url }}">
+
+{% if page.previous %}
+  <link rel="prev" href="{{ page.previous.url | absolute_url }}">
+{% endif %}
+
+{% if page.next %}
+  <link rel="next" href="{{ page.next.url | absolute_url }}">
+{% endif %}
+
+<!-- =============== -->
+<!-- SCRIPTS         -->
+<!-- =============== -->
+<script>
+  {% include scripts/load-js-deferred.min.js %}
+  {% include scripts/loadCSS.min.js %}
+  {% include scripts/cssrelpreload.min.js %}
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- =============== -->
+<!-- STYLES          -->
+<!-- =============== -->
+<!--[if gt IE 8]><!---->
+<style>
+  {% capture include_to_scssify %}
+  {% include styles/inline.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+</style>
+
+{% capture style_url %}{% link assets/css/hydejack.css %}?v=6.0.0{% endcapture %}
+<link rel="preload" href="{{ style_url | relative_url }}" as="style" onload="this.rel='stylesheet'">
+
+{% include page-style.html %}
+
+<noscript>
+  <link rel="stylesheet" href="{{ style_url | relative_url }}">
+
+  {% assign font = site.font %}
+  {% assign font_heading = site.font_heading %}
+  {% assign google_fonts = site.google_fonts %}
+  {% unless font or font_heading or google_fonts %}
+    {% assign font = "'Noto Serif', Georgia, serif" %}
+    {% assign font_heading = "'Roboto Slab', Helvetica, Arial, sans-serif" %}
+    {% assign google_fonts = "Roboto+Slab:700|Noto+Serif:400,400i,700,700i" %}
+  {% endunless %}
+
+  {% if google_fonts.size > 0 %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ google_fonts }}">
+    <style>
+      html { font-family: {{ font }} }
+      h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading }} }
+    </style>
+  {% endif %}
+
+  {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
+  <link rel="stylesheet" href="{{ icons_url | relative_url }}">
+</noscript>
+<!--<![endif]-->
