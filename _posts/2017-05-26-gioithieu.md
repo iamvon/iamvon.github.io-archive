@@ -4,6 +4,7 @@ title: Giới thiệu chung về Von's Blog
 tags: [chuyencoding]
 description: >
    Mang kiến thức của bạn chia sẻ tới mọi người.
+comments: true
 author: Author_name
 ---
 ## **Đôi điều về Von's Blog**
