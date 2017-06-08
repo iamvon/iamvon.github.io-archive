@@ -87,6 +87,7 @@ gems:
   - jekyll-paginate
   - jekyll-redirect-from
   - jemoji
+  - jekyll-seo-tag
   - jekyll-github-comments
   
 exclude:
