@@ -6,5 +6,5 @@ menu: true
 order: 2
 description: >
   Mục viết về những gì tôi đã học được mỗi ngày, về những lĩnh vực tôi quan tâm và có hứng thú. 
-image: /assets/img/vintage-bookshelves.jpg
+image: /assets/img/vintage-bookshelves1.jpg
 ---
