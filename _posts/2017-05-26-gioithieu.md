@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Giới thiệu chung về Von's Blog
-tags: [chuyencoding]
+tags: [til]
 description: >
    Mang kiến thức của bạn chia sẻ tới mọi người.
 comments: true
