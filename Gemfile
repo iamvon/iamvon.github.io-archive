@@ -8,3 +8,4 @@ gem "classifier-reborn"
 gem 'jemoji'
 gem 'jekyll-github-comments', '~> 1.0'
 gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
