@@ -23,7 +23,7 @@ description:         >
   
 # This should be the same author as first in `_data/authors.yml`
 author:
-  name:              iamvon
+  name:              von
   email:             iamvon.blog@gmail.com
 
 # Fallback image and color if not overwritten
