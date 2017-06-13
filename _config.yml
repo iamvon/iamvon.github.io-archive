@@ -43,7 +43,7 @@ google_analytics:    UA-100692169-1
 # that have `comments: true` in the front matter
 # disqus_shortname:
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           'Copyright &copy; 2017 Von'sBlog'
+copyright:           'Copyright &copy; 2017 Blog'
 
 # Set to true when building locally with the `--lsi` option
 # See: https://jekyllrb.com/docs/variables/#site-variables, `site.related_posts`
