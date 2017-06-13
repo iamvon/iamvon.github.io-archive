@@ -38,9 +38,9 @@
 {% assign font_heading = site.font_heading %}
 {% assign google_fonts = site.google_fonts %}
 {% unless font or font_heading or google_fonts %}
-  {% assign font = "'Noto Serif', Georgia, serif" %}
+  {% assign font = "'Open Sans', Georgia, serif" %}
   {% assign font_heading = "'Roboto Slab', Helvetica, Arial, sans-serif" %}
-  {% assign google_fonts = "Roboto+Slab:700|Noto+Serif:400,400i,700,700i" %}
+  {% assign google_fonts = "Roboto+Slab:700|Open+Sans:400,400i,700,700i" %}
 {% endunless %}
 
 {% if google_fonts %}
@@ -48,5 +48,5 @@
   {% assign font_heading = font_heading | split:',' | shift | join:',' %}
 {% endif %}
 
-html { font-family: {{ font | default:"serif" }}; }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading | default:"serif" }}; }
+html { font-family: {{ font | default:"Open Sans" }}; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading | default:"Open Sans" }}; }
