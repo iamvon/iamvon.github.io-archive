@@ -32,9 +32,9 @@ author:
 color:               '#0083a0'
 
 # Remove to disable Google Fonts
-google_fonts:        Roboto+Slab:700|Noto+Serif:400,400i,700,700i
+google_fonts:        Roboto+Slab:700|Open+Sans:400,400i,700,700i
 font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"
-font:                "'Open Sans', Georgia, Noto Serif,serif "
+font:                "'Open Sans', Georgia, Noto Serif, serif "
 
 # Remove to disable Google Anaylics
 google_analytics:    UA-100692169-1
