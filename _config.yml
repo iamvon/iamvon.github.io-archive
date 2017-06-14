@@ -29,7 +29,7 @@ author:
 
 # Fallback image and color if not overwritten
 #image:               
-color:               '#347bc1'
+color:               '#1c8cc9'
 
 # Remove to disable Google Fonts
 google_fonts:        Roboto+Slab:700|Open+Sans:400,400i,700,700i
