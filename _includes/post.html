@@ -17,7 +17,7 @@
     {% endcapture %}
 
     <p class="post-date heading">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d %Y" }}</time>{% if post.categories.size > 0 or post.tags.size > 0 %}, {% endif %}
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>{% if post.categories.size > 0 or post.tags.size > 0 %}, {% endif %}
       {{ categories_content }}
       {{ tags_content }}
     </p>
