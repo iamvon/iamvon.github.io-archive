@@ -46,9 +46,9 @@ ul, ol {
 }
 
 hr {
-  height: 10px;
-  border: 0;
-  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+  border: 0; 
+  height: 1px; 
+  background-image: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
 }
 
 h4, h5, h6, .h4, .h5, .h6 {
