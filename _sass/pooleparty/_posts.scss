@@ -26,9 +26,10 @@
 }
 
 .dingbat::after {
-  content: "☕"+<i> Have a nice day !</i>;
+  content: "☕ Have a nice day !";
   display: block;
   text-align: center;
+  font-style: italic;
   margin-top: 1.9rem;
   font-size: 1.3rem;
   color: rgba(218, 176, 130, 0.8);
