@@ -46,11 +46,9 @@ ul, ol {
 }
 
 hr {
-  position: relative;
-  margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border: 0; 
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 h4, h5, h6, .h4, .h5, .h6 {
