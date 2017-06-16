@@ -30,7 +30,7 @@
     {{ post.content }}
   {% else %}
     {{ post.excerpt }}
-    
+    <br/>
     <span class="heading faded"> ➥ <a href="{{ post.url | relative_url }}" data-flip="title"> Đọc tiếp </a> ... </span>
   {% endunless %}
     <hr/>
