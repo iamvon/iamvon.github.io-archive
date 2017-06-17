@@ -79,10 +79,10 @@ abbr {
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #aaaaaa;
-  border-left: .25rem solid $border-color;
+    padding: .6rem 1rem;
+    margin: .8rem 1.5rem;
+    color: #929191;
+    border-left: 0.25rem solid #b5b5b5;
 
   &.lead {
     font-size: 1.25rem;
