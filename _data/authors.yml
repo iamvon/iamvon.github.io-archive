@@ -71,7 +71,7 @@ Author_name:    # tên tác giả, bạn có thể chọn 1 tên bất kì phụ
   about:      |
      Giới thiệu bản thân
   
-  picture:  https://static.pexels.com/photos/235998/pexels-photo-235998.jpeg        #  điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
+  picture:  https://static.pexels.com/photos/235998/pexels-photo-235998.jpeg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
  #social:
    # facebook:          facebook_user_name  # tên facebook user của bạn (không phải tên sử dụng trên facebook)  
    # twitter:          _username_
