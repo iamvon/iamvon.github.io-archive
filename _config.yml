@@ -91,6 +91,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-comments
+  - jekyll-responsive-image
   
 exclude:
   - README.md
