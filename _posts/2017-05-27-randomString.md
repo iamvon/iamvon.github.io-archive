@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Code
+title: Thuật toán sinh chuỗi kí tự ngẫu nhiên
 tags: [chuyencoding]
 description: >
   Test code highlight.
@@ -20,7 +20,7 @@ static const char chuoikytu [] =
 "0123456789"
 "abcdefghijklmnopqrstuvwxyz"
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-"!@#$%^&/?()_-+;:.•|~×÷`" ;
+"!@#$%^&/?()_-+;:.|~×÷`" ;
 
 int size = sizeof(chuoikytu) - 1;
 
