@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Thuật toán sắp xếp 3 số nguyên theo thứ tự giảm dần
-tags: [chuyencoding]
-  
+tags: [chuyencoding]  
 author: von
 comments: yes
 ---
