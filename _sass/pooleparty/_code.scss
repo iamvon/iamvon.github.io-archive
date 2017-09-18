@@ -3,31 +3,6 @@
 // Inline and block-level code snippets. Includes tweaks to syntax highlighted
 // snippets from Pygments/Rouge and Gist embeds.
 
-code, pre {
-  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-}
-
-code {
-  padding: .25em .5em;
-  font-size: .84em;
-  background-color: rgba(0, 0, 0, 0.03);
-}
-
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  display: block;
-  line-height: 1.1;
-
-  /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-
-  /* Make code same width as regular text, and scroll the full page width on mobile */
-  @include pre();
-
-  backface-visibility: hidden; // wat?
-}
 
 /* Highlights taken from https://gist.github.com/asaaki/1007420  for Monokai theme */
 .c                 { color: #75715e }                            /* Comment                     */
@@ -88,6 +63,34 @@ pre {
 .vg                { color: #f8f8f2 }                            /* Name.Variable.Global        */
 .vi                { color: #f8f8f2 }                            /* Name.Variable.Instance      */
 .il                { color: #ae81ff }                            /* Literal.Number.Integer.Long */
+
+code, pre {
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: .84em;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  line-height: 1.1;
+
+  /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  /* Make code same width as regular text, and scroll the full page width on mobile */
+  @include pre();
+
+  backface-visibility: hidden; // wat?
+}
+
+
 
 pre code {
   padding: 0;
