@@ -3,12 +3,12 @@ layout: post
 title: Thuật toán sắp xếp 3 số nguyên theo thứ tự giảm dần
 tags: [chuyencoding]
 description: >
-  Sắp xếp 3 số nguyên bằng cách sử dụng câu lệnh rẽ nhánh.
+  
 author: von
 comments: yes
 ---
 
-
+ Sắp xếp 3 số nguyên bằng cách sử dụng câu lệnh rẽ nhánh :
 
 ```cpp
 #include <iostream>
