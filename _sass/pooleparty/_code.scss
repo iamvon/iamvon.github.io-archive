@@ -54,14 +54,7 @@ figure, .figure {
     padding: 0 1rem;
   }
 }
-/* Adjusted to give override background and text colour */
-.highlight pre, pre, .highlight .hll {
-    background-color: #49483E;
-    border: 1px solid #ccc;
-    padding: 6px 10px;
-    border-radius: 3px;
-    color: #FFFFFF;
-}
+
 /* Highlights taken from https://gist.github.com/asaaki/1007420  for Monokai theme */
 .c                 { color: #75715e }                            /* Comment                     */
 .err               { color: #960050; background-color: #1e0010 } /* Error                       */
@@ -121,6 +114,16 @@ figure, .figure {
 .vg                { color: #f8f8f2 }                            /* Name.Variable.Global        */
 .vi                { color: #f8f8f2 }                            /* Name.Variable.Instance      */
 .il                { color: #ae81ff }                            /* Literal.Number.Integer.Long */
+
+/* Adjusted to give override background and text colour */
+.highlight pre, pre, .highlight .hll {
+    background-color: #49483E;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
 .highlight {
   margin-bottom: 1rem;
 }
