@@ -16,31 +16,31 @@ using namespace std;
 int main()
 {
     int num1, num2, num3 ;
-    int change_num ;
+    int swap ;
     cin >> num1 >> num2 >> num3 ;
 
     // đổi chỗ số lớn nhất lên đầu
 
     if (num1 < num2)
     {
-        change_num = num1 ;
+        swap = num1 ;
         num1 = num2 ;
-        num2 = change_num ;
+        num2 = swap ;
     }
     if (num1 < num3)
     {
-        change_num = num1 ;
+        swap = num1 ;
         num1 = num3 ;
-        num3 = change_num ;
+        num3 = swap ;
     }
 
     // đổi chỗ 2 số còn lại
 
     if (num2 < num3)
     {
-        change_num = num2 ;
+        swap = num2 ;
         num2 = num3 ;
-        num3 = change_num ;
+        num3 = swap ;
     }
     cout<< num1 << " " << num2 << " " << num3 ;
     return 0;
