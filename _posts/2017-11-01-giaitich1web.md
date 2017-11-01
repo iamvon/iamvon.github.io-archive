@@ -2,7 +2,6 @@
 layout: post
 title: Các trang Web bạn nên tham khảo khi học Giải Tích 1
 tags: [thuthuat]
-comment: true
 author: von
 ---
 ### Giải Tích
