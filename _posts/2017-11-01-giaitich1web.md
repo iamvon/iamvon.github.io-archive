@@ -3,7 +3,6 @@ layout: post
 title: Các trang Web bạn nên tham khảo khi học Giải Tích 1
 tags: [thuthuat]
 author: von
-comments: true
 ---
 ### Giải Tích
 ---
@@ -24,7 +23,7 @@ Desmos cũng có các phiên bản mobile trên iPhone và Android hoặc Add-on
 **2.** [Derivative calculator](https://www.derivative-calculator.net/)
 
 Đúng như tên gọi, trang Web này giúp chúng ta tính đạo hàm của một hàm số. Điều đặc biệt là trang Web này yêu cầu chúng ta nhập biểu thức hàm số dưới dạng LaTeX. Đừng lo lắng nếu bạn chưa từng biết tới nó, hãy vào phần Examples ở phía bên phải và xem cách soạn thảo 1 vài công thức thường gặp, nếu bạn đã từng quen với code thì bạn sẽ làm quen với nó nhanh thôi!
-Khi bạn nhập xong biểu thức vào ô trống và click _Go!_, bạn sẽ có được đáp số cùng với lời giải chi tiết từng bước. Có điều đôi khi lời giải đó vẫn chưa phải là lời giải tốt nhất, bạn cũng nên có những cách làm của riêng mình.
+Khi bạn nhập xong biểu thức vào ô trống và click __Go!__, bạn sẽ có được đáp số cùng với lời giải chi tiết từng bước. Có điều đôi khi lời giải đó vẫn chưa phải là lời giải tốt nhất, bạn cũng nên có những cách làm của riêng mình.
 Quan trọng hơn hết vẫn là việc đọc hiểu tiếng Anh, tất cả trang Web mình giới thiệu đều là tiếng Anh do chúng thực sự hay và có hiệu năng tốt.
 
 **3.** [Integral calculator](https://www.integral-calculator.com/)
