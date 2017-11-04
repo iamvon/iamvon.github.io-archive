@@ -139,7 +139,7 @@ linhnguyen:
    # linkedin:        _firstname_-_lastname_-_string_
    # blogger:         _number_
    # paypal:          _username_
-  email:           thuylinh.t.ngn@gmail.com
+  email:           mailto:thuylinh.t.ngn@gmail.com
   
   image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
  
