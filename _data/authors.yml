@@ -117,9 +117,9 @@ linhnguyen:
      Nếu một lúc nào đấy hứng thú, mình có thể lên Hồ Tây ngồi ngắm nước và mặt trời lặn. Và chụp vài tấm ảnh film. Hoặc cũng thể đi lang thang, nhìn mọi người.
   
   picture:  /assets/img/linh-von.jpg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
---- 
-social: 
-  email: "mailto:thuylinh.t.ngn@gmail.com"
-  image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-  instagram: mery.ghost
+
+  social: 
+    email: "mailto:thuylinh.t.ngn@gmail.com"
+    image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+    instagram: mery.ghost
 
