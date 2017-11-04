@@ -117,29 +117,9 @@ linhnguyen:
      Nếu một lúc nào đấy hứng thú, mình có thể lên Hồ Tây ngồi ngắm nước và mặt trời lặn. Và chụp vài tấm ảnh film. Hoặc cũng thể đi lang thang, nhìn mọi người.
   
   picture:  /assets/img/linh-von.jpg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
-social:
-  #facebook:                     # tên facebook user của bạn (không phải tên sử dụng trên facebook)  
-   # twitter:          _username_
-   # google:          _number_
-   # youtube:       
-   # vimeo:           _username_    
-   # vine:            _username_
-   # soundcloud:      _username_
-  instagram:          mery.ghost
-   # flickr:          _string_@_string_
-   # 500px:           _username_
-   # steam:           _number_
-   # reddit:          _username_
-   # tumblr:          _username_
-   # pinterest:       _username_
-   # github:          _username_
-   # stackoverflow:   _number_/_username_
-   # npm:             _username_
-   # hackernews:      _username_
-   # linkedin:        _firstname_-_lastname_-_string_
-   # blogger:         _number_
-   # paypal:          _username_
-  email:           mailto:thuylinh.t.ngn@gmail.com
-  
-  image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
- 
+--- 
+social: 
+  email: "mailto:thuylinh.t.ngn@gmail.com"
+  image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+  instagram: mery.ghost
+
