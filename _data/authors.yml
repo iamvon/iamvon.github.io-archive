@@ -85,7 +85,7 @@ Author_name:    # tên tác giả, bạn có thể chọn 1 tên bất kì phụ
    # vimeo:           _username_    
    # vine:            _username_
    # soundcloud:      _username_
-   # instagram:       _username_   
+  instagram:       mery.ghost   
    # flickr:          _string_@_string_
    # 500px:           _username_
    # steam:           _number_
@@ -100,6 +100,44 @@ Author_name:    # tên tác giả, bạn có thể chọn 1 tên bất kì phụ
    # blogger:         _number_
    # paypal:          _username_
    # email:           
+  
+  image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
+ 
+
+
+# Another author:
+Author_name:   linhnguyen
+  name:        Linh Nguyễn      
+  email:       thuylinh.t.ngn@gmail.com      
+  
+  # giới thiệu bản thân bạn, phần này sẽ luôn xuất hiện phía dưới cùng mỗi bài viết của bạn
+  about:      |
+     Giới thiệu bản thân
+  
+  picture:  https://static.pexels.com/photos/235998/pexels-photo-235998.jpeg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
+ #social:
+   # facebook:          facebook_user_name  # tên facebook user của bạn (không phải tên sử dụng trên facebook)  
+   # twitter:          _username_
+   # google:          _number_
+   # youtube:       
+   # vimeo:           _username_    
+   # vine:            _username_
+   # soundcloud:      _username_
+   # instagram:       _username_   
+   # flickr:          _string_@_string_
+   # 500px:           _username_
+   # steam:           _number_
+   # reddit:          _username_
+   # tumblr:          _username_
+   # pinterest:       _username_
+   # github:          _username_
+   # stackoverflow:   _number_/_username_
+   # npm:             _username_
+   # hackernews:      _username_
+   # linkedin:        _firstname_-_lastname_-_string_
+   # blogger:         _number_
+   # paypal:          _username_
+  email:           thuylinh.t.ngn@gmail.com
   
   image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
  
