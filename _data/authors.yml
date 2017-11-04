@@ -107,7 +107,7 @@ Author_name:    # tên tác giả, bạn có thể chọn 1 tên bất kì phụ
 
 # Another author:
 linhnguyen:
-  name:        Linh Nguyễn      
+  name:        linhnguyen      
   email:       thuylinh.t.ngn@gmail.com      
   
   # giới thiệu bản thân bạn, phần này sẽ luôn xuất hiện phía dưới cùng mỗi bài viết của bạn
@@ -125,7 +125,7 @@ linhnguyen:
    # vimeo:           _username_    
    # vine:            _username_
    # soundcloud:      _username_
-  instagram:       mery.ghost
+  instagram:       @mery.ghost
    # flickr:          _string_@_string_
    # 500px:           _username_
    # steam:           _number_
