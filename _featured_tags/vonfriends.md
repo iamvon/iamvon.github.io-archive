@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Von's friends
+title: Những người bạn của Von
 slug: vonfriends
 menu: true
 order: 6
