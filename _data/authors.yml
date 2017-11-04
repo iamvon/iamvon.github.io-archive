@@ -1,6 +1,6 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
-# Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
+# Change `von` to your shortname (used in the front matter to set a page's author, e.g. `author: von`).
 von:
   name:             von
   email:            iamvon.blog@gmail.com
@@ -106,7 +106,7 @@ Author_name:    # tên tác giả, bạn có thể chọn 1 tên bất kì phụ
 
 
 # Another author:
-Author_name:   linhnguyen
+linhnguyen:
   name:        Linh Nguyễn      
   email:       thuylinh.t.ngn@gmail.com      
   
@@ -116,7 +116,7 @@ Author_name:   linhnguyen
      
      Nếu một lúc nào đấy hứng thú, mình có thể lên Hồ Tây ngồi ngắm nước và mặt trời lặn. Và chụp vài tấm ảnh film. Hoặc cũng thể đi lang thang, nhìn mọi người.
   
-  picture:  https://static.pexels.com/photos/235998/pexels-photo-235998.jpeg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
+  picture:  /assets/img/linh-von.jpg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
  #social:
    # facebook:          facebook_user_name  # tên facebook user của bạn (không phải tên sử dụng trên facebook)  
    # twitter:          _username_
