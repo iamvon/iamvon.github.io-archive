@@ -85,7 +85,7 @@ Author_name:    # tên tác giả, bạn có thể chọn 1 tên bất kì phụ
    # vimeo:           _username_    
    # vine:            _username_
    # soundcloud:      _username_
-  instagram:       mery.ghost   
+  #instagram:       mery.ghost   
    # flickr:          _string_@_string_
    # 500px:           _username_
    # steam:           _number_
@@ -123,7 +123,7 @@ Author_name:   linhnguyen
    # vimeo:           _username_    
    # vine:            _username_
    # soundcloud:      _username_
-   # instagram:       _username_   
+  instagram:       mery.ghost
    # flickr:          _string_@_string_
    # 500px:           _username_
    # steam:           _number_
