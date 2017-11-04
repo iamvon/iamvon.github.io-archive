@@ -119,7 +119,7 @@ linhnguyen:
   picture:  /assets/img/linh-von.jpg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
 
   social: 
-    email: "mailto:thuylinh.t.ngn@gmail.com"
-    image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
     instagram: mery.ghost
+    email: mailto:thuylinh.t.ngn@gmail.com
+    image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 
