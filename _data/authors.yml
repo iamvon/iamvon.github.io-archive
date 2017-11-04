@@ -118,14 +118,14 @@ linhnguyen:
   
   picture:  /assets/img/linh-von.jpg    # điền 1 đường link URL bất kỳ có chứa ảnh đại diện của bạn
  #social:
-   # facebook:          facebook_user_name  # tên facebook user của bạn (không phải tên sử dụng trên facebook)  
+  facebook:          little.chjppyy    # tên facebook user của bạn (không phải tên sử dụng trên facebook)  
    # twitter:          _username_
    # google:          _number_
    # youtube:       
    # vimeo:           _username_    
    # vine:            _username_
    # soundcloud:      _username_
-  instagram:       @mery.ghost
+  instagram:          mery.ghost
    # flickr:          _string_@_string_
    # 500px:           _username_
    # steam:           _number_
