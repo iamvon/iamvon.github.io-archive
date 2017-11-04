@@ -63,8 +63,8 @@ von:
     # paypal:          _username_
     email:           mailto:iamvon.blog@gmail.com
     # rss:          
-  image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
-  color: '#478eb2'   
+  #image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
+  #color: '#478eb2'   
 
 # Another author:
 Author_name:    # tên tác giả, bạn có thể chọn 1 tên bất kì phục vụ cho việc viết bài của bạn
@@ -121,5 +121,5 @@ linhnguyen:
   social: 
     instagram: mery.ghost
     email: mailto:thuylinh.t.ngn@gmail.com
-    image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+    #image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 
