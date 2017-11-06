@@ -41,7 +41,7 @@ google_analytics:    UA-100692169-1
 
 # Setting a disqus shortname will enable the comment section on pages
 # that have `comments: true` in the front matter
-#disqus_shortname:
+disqus_shortname:   iamvon
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           'Copyright &copy; 2017 Von'
 
