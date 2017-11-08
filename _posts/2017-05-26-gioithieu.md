@@ -4,8 +4,8 @@ title: Giới thiệu chung về Von's Blog
 tags: [til]
 description: >
    Mang kiến thức của bạn chia sẻ tới mọi người.
-comments: true
-author: Author_name
+comments: false
+author: von
 ---
 ## **Đôi điều về Von's Blog**
 Von's Blog là 1 website tĩnh được xây dựng dựa trên nền tảng blog [Jekyll](https://jekyllrb.com/), được hỗ trợ hosting bởi [Github](https://github.com). Theo đánh giá chủ quan của bản thân mình thì đây thực sự là 1 nền tảng blog tuyệt vời dành cho lập trình viên.
