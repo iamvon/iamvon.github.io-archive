@@ -49,8 +49,8 @@ void add(string &a, string &b)
 
   for(int i = n - 1; i >= 0; i--)
    {
-      sum = (charToInt(a[i]) + charToInt(b[i]) + temp) % 10 ;
-      temp = (charToInt(a[i]) + charToInt(b[i]) + temp) / 10 ;
+      sum = (charToInt(a[i]) + charToInt(b[i]) + temp)%10 ;
+      temp = (charToInt(a[i]) + charToInt(b[i]) + temp)/10 ;
       result = intToChar(sum) + result ;
    }
    cout << endl ;
