@@ -3,7 +3,7 @@ layout: post
 title: Tính toán với số nguyên rất lớn : phép cộng (Phần 1)
 tags: [chuyencoding]
 description: >
-   Series bài viết về các phép toán thực hiện với các số nguyên rất lớn (Code C++)
+  Series bài viết về các phép toán thực hiện với các số nguyên rất lớn (Code C++)
 author: von
 ---
 ```cpp
