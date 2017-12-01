@@ -6,7 +6,6 @@ description: >
    Series bài viết về các phép toán thực hiện với các số nguyên rất lớn (Code C++)
 author: von
 ---
-
 ```cpp
 #include <bits/stdc++.h>
 
