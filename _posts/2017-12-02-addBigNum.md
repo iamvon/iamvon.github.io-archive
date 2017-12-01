@@ -6,7 +6,7 @@ description: >
   Series bài viết về các phép toán thực hiện với các số nguyên rất lớn (Code C++)
 author: von
 ---
-Phép cộng 2 số nguyên rất lớn :                    
+Phép cộng 2 số nguyên dương rất lớn :                    
 
 ```cpp
 #include <bits/stdc++.h>
