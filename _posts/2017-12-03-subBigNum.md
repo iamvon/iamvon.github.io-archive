@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tính toán với số nguyên rất lớn - phép Trừ (Phần 1)
+title: Tính toán với số nguyên rất lớn - phép Trừ (Phần 2)
 tags: [chuyencoding]
 description: >
   Series bài viết về các phép toán thực hiện với các số nguyên rất lớn (Code C++)
