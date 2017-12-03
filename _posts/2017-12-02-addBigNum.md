@@ -53,6 +53,7 @@ void add(string &a, string &b)
       temp = (charToInt(a[i]) + charToInt(b[i]) + temp)/10 ;
       result = intToChar(sum) + result ;
    }
+   result = intToChar(temp) + result ;
    cout << endl ;
    cout << result ;
 }
