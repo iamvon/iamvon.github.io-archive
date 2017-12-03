@@ -39,16 +39,24 @@ void sub(string &a, string &b)
     n = len_a ;
     for(int i = n - 1; i >= 0; i--)
      {
-        if (charToInt(a[i]) >= charToInt(b[i]))
+        if (charToInt(a[i]) > charToInt(b[i]))
         {
-          digit = charToInt(a[i]) - (charToInt(b[i]) + temp) ;
+          digit = charToInt(a[i]) - charToInt(b[i]) ;
           temp = 0 ;
           result = intToChar(digit) + result ;
+          b[i-1] = intToChar(charToInt(b[i-1]) + temp) ;
         }
         else if (charToInt(a[i]) < charToInt(b[i]))
         {
-          digit = ((charToInt(a[i])+10) - (charToInt(b[i]) + temp))%10 ;
+          digit = ((charToInt(a[i])+10) - charToInt(b[i]))%10 ;
           temp = 1 ;
+          result = intToChar(digit) + result ;
+          b[i-1] = intToChar(charToInt(b[i-1]) + temp) ;
+        }
+        else
+        {
+          digit = charToInt(a[i]) - charToInt(b[i]) ;
+          temp = 0 ;
           result = intToChar(digit) + result ;
         }
      }
@@ -139,7 +147,7 @@ else
     cout << '-' + result ;
  }
 }
-}  
+}
 
 int main()
 {
