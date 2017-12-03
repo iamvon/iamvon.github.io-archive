@@ -9,7 +9,7 @@ author: von
 Phép trừ 2 số nguyên dương rất lớn :                    
 
 ```cpp
-include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std ;
 
@@ -140,7 +140,6 @@ else
  }
 }
 }  
-}
 
 int main()
 {
