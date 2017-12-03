@@ -23,10 +23,25 @@ char intToChar(int a)
   return char(a + '0') ;
 }
 
+void removeZeroSuperfluous(string &input)
+{
+  int n = input.length(), i = 0 ;
+  while(i < n)
+  {
+    if(input[i] != '0')
+    {
+      break ;
+    }
+    input.erase(0,1) ;
+  }
+}
+
 void add(string &a, string &b)
 {
+  removeZeroSuperfluous(a) ;
+  removeZeroSuperfluous(b) ;
   string result ;
-  int sum = 0, temp = 0 ;
+  int digit = 0, temp = 0 ;
   int len_a = a.length() ;
   int len_b = b.length() ;
   int n ;
@@ -49,11 +64,12 @@ void add(string &a, string &b)
 
   for(int i = n - 1; i >= 0; i--)
    {
-      sum = (charToInt(a[i]) + charToInt(b[i]) + temp)%10 ;
-      temp = (charToInt(a[i]) + charToInt(b[i]) + temp)/10 ;
-      result = intToChar(sum) + result ;
+      digit = (charToInt(a[i]) + charToInt(b[i]) + temp) % 10 ;
+      temp = (charToInt(a[i]) + charToInt(b[i]) + temp) / 10 ;
+      result = intToChar(digit) + result ;
    }
    result = intToChar(temp) + result ;
+   removeZeroSuperfluous(result) ;
    cout << endl ;
    cout << result ;
 }
