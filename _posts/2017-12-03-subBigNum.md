@@ -23,6 +23,19 @@ char intToChar(int a)
   return char(a + '0') ;
 }
 
+void removeZeroSuperfluous(string &input)
+{
+  int n = input.length(), i = 0 ;
+  while(i < n)
+  {
+    if(input[i] != '0')
+    {
+      break ;
+    }
+    input.erase(0,1) ;
+  }
+}
+
 string returnSubResult(string &longer, string &shorter, int n)
 {
   int temp = 0, digit = 0 ;
@@ -50,11 +63,14 @@ string returnSubResult(string &longer, string &shorter, int n)
         result = intToChar(digit) + result ;
       }
    }
+   removeZeroSuperfluous(result) ;
    return result ;
 }
 
 void sub(string &a, string &b)
 {
+  removeZeroSuperfluous(a) ;
+  removeZeroSuperfluous(b) ;
   string result ;
   int digit = 0, temp = 0 ;
   int len_a = a.length() ;
