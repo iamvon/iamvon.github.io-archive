@@ -6,7 +6,7 @@ description: >
   Series bài viết về các phép toán thực hiện với các số nguyên rất lớn (Code C++)
 author: von
 ---
-Phép trừ 2 số nguyên dương rất lớn (a > b):                    
+Phép trừ 2 số nguyên dương rất lớn :                    
 
 ```cpp
 include <bits/stdc++.h>
@@ -37,16 +37,70 @@ void sub(string &a, string &b)
       b = '0' + b ;
     }
     n = len_a ;
+    for(int i = n - 1; i >= 0; i--)
+     {
+        if (charToInt(a[i]) >= charToInt(b[i]))
+        {
+          digit = charToInt(a[i]) - (charToInt(b[i]) + temp) ;
+          temp = 0 ;
+          result = intToChar(digit) + result ;
+        }
+        else if (charToInt(a[i]) < charToInt(b[i]))
+        {
+          digit = ((charToInt(a[i])+10) - (charToInt(b[i]) + temp))%10 ;
+          temp = 1 ;
+          result = intToChar(digit) + result ;
+        }
+     }
+     cout << endl ;
+     cout << result ;
   }
-  else
+  else if (len_a < len_b)
   {
     for(int i = 0; i < len_b - len_a; i++)
     {
       a = '0' + a ;
     }
     n = len_b ;
+    for(int i = n - 1; i >= 0; i--)
+     {
+        if (charToInt(b[i]) >= charToInt(a[i]))
+        {
+          digit = charToInt(b[i]) - (charToInt(a[i]) + temp) ;
+          temp = 0 ;
+          result = intToChar(digit) + result ;
+        }
+        else if (charToInt(b[i]) < charToInt(a[i]))
+        {
+          digit = ((charToInt(b[i])+10) - (charToInt(a[i]) + temp))%10 ;
+          temp = 1 ;
+          result = intToChar(digit) + result ;
+        }
+     }
+     cout << endl ;
+     cout << '-' + result ;
   }
-  for(int i = n - 1; i >= 0; i--)
+
+else
+{
+  int check = 0 ; // suppose a > b
+  n = len_a ;
+  // check whether b > a or not
+  for(int i = 0; i < n; i++)
+  {
+    if(charToInt(b[i]) > charToInt(a[i]))
+    {
+      check = 1 ; // b > a
+      break ;
+    }
+    else if(charToInt(b[i]) < charToInt(a[i]))
+    {
+      break ; // a > b
+    }
+  }
+  if (check == 0)
+  {
+    for(int i = n - 1; i >= 0; i--)
    {
       if (charToInt(a[i]) >= charToInt(b[i]))
       {
@@ -63,6 +117,29 @@ void sub(string &a, string &b)
    }
    cout << endl ;
    cout << result ;
+ }
+ else if (check == 1)
+ {
+   for(int i = n - 1; i >= 0; i--)
+    {
+       if (charToInt(b[i]) >= charToInt(a[i]))
+       {
+         digit = charToInt(b[i]) - (charToInt(a[i]) + temp) ;
+         temp = 0 ;
+         result = intToChar(digit) + result ;
+       }
+       else if (charToInt(b[i]) < charToInt(a[i]))
+       {
+         digit = ((charToInt(b[i])+10) - (charToInt(a[i]) + temp))%10 ;
+         temp = 1 ;
+         result = intToChar(digit) + result ;
+       }
+    }
+    cout << endl ;
+    cout << '-' + result ;
+ }
+}
+}  
 }
 
 int main()
