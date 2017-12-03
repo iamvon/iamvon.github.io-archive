@@ -22,6 +22,7 @@ char intToChar(int a)
 {
   return char(a + '0') ;
 }
+
 string returnSubResult(string &longer, string &shorter, int n)
 {
   int temp = 0, digit = 0 ;
