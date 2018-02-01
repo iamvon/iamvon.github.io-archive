@@ -10,34 +10,27 @@ Phép cộng 2 số nguyên dương rất lớn (a + b) :              
 
 ```cpp
 #include <bits/stdc++.h>
-
 using namespace std ;
 
-int charToInt(char a)
-{
+int charToInt(char a) {
   return int(a - '0') ;
 }
 
-char intToChar(int a)
-{
+char intToChar(int a) {
   return char(a + '0') ;
 }
 
-void removeZeroSuperfluous(string &input)
-{
+void removeZeroSuperfluous(string &input) {
   int n = input.length(), i = 0 ;
-  while(i < n)
-  {
-    if(input[i] != '0')
-    {
+  while(i < n) {
+    if(input[i] != '0') {
       break ;
     }
     input.erase(0,1) ;
   }
 }
 
-void add(string &a, string &b)
-{
+void add(string &a, string &b) {
   removeZeroSuperfluous(a) ;
   removeZeroSuperfluous(b) ;
   string result ;
@@ -45,25 +38,20 @@ void add(string &a, string &b)
   int len_a = a.length() ;
   int len_b = b.length() ;
   int n ;
-  if (len_a > len_b)
-  {
-    for(int i = 0; i < len_a - len_b; i++)
-    {
+  if (len_a > len_b) {
+    for(int i = 0; i < len_a - len_b; i++) {
       b = '0' + b ;
     }
     n = len_a ;
   }
-  else
-  {
-    for(int i = 0; i < len_b - len_a; i++)
-    {
+  else {
+    for(int i = 0; i < len_b - len_a; i++) {
       a = '0' + a ;
     }
     n = len_b ;
   }
 
-  for(int i = n - 1; i >= 0; i--)
-   {
+  for(int i = n - 1; i >= 0; i--) {
       digit = (charToInt(a[i]) + charToInt(b[i]) + temp) % 10 ;
       temp = (charToInt(a[i]) + charToInt(b[i]) + temp) / 10 ;
       result = intToChar(digit) + result ;
@@ -74,8 +62,7 @@ void add(string &a, string &b)
    cout << result ;
 }
 
-int main()
-{
+int main() {
     string a, b ;
     cin >> a >> b ;
     add(a,b) ;
