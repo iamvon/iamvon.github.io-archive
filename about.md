@@ -10,4 +10,3 @@ description:         >
 image: /assets/img/admin.jpg
 ---
 
-#Mọi thông tin về Blog cũng như các tác giả mình sẽ cập nhật sau.
