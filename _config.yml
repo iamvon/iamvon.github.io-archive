@@ -92,7 +92,7 @@ gems:
   - jekyll-github-comments
   - jekyll-responsive-image
   - jemoji
-  - reading_time
+  - jekyll-time-to-read
   
 exclude:
   - README.md
