@@ -91,7 +91,7 @@ gems:
   - jekyll-sitemap
   - jekyll-github-comments
   - jekyll-responsive-image
-  - emoji_for_jekyll
+  - jemoji
   
 exclude:
   - README.md
