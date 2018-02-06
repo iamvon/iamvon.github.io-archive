@@ -87,7 +87,6 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
-  - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-comments
